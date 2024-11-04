@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+h1{
+  margin-bottom: -10px;
+}
+select option{
+  cursor: pointer;
+}
+nav{
+  width: 17%;
+  border-right: 1px ;
+  background-image: url(../images/image__5_-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-y: 1%;  
+  background-position-x: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  position: fixed;
+}
+.navLinks{
+  padding-top: 125px;
+  text-align: center;
+  font-size: 18px;
+}
+main{
+  width: 100%;
+  background-color: #a5a5a5;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  height: 100vh;
+}
+.content{
+  border: 1px;
+  width: 85%;
+  height: 100%;
+  padding: 0;
+  background-color: #292f36;
+  display: flex;
+  align-self: flex-end;
+  margin-left: 16.5%;
+  color: white;
+
+}
+a:hover{
+  color: rgb(6, 122, 122);
+}
+.adition{
+  width: 33%;
+  background-color: #E6EFE9;
+  height: 100vh;
+}
+.Divinput{
+  width: 100%;;
+  padding-left: 6px;
+  text-align: center;
+}
+#inputTelefone{
+  width: 16.5%;
+  margin-left: 0.08%;
+}
+.input, .inputEdit{
+  height: 26px;
+  margin-right: -5px ;
+  border: .4px solid black;
+  margin-top: 15px;
+  padding-left: 5px;
+  font-size: 14px;
+}
+select, button,#inputAdicionar{
+  cursor: pointer;
+}
+input[text]{
+  cursor: text;
+}
+#inputNome, #inputEscola{
+  width: 95.2%;
+}
+#inputEndereco{
+  width: 70%;
+}
+
+#inputBairro{
+  width: 24.8%;
+
+}
+#inputCpf{
+  width: 30.5%;
+}
+*:focus {
+  outline: none;
+}
+#inputResponsavel{
+  width: 30%;
+}
+.Divinput select{
+  width: 32.15%;
+  text-align: center;
+  font-size: 15px;
+}
+#inputEditar:hover{
+  background-color: #dfdede;
+  cursor: pointer;
+
+}
+input[type=text]{
+  cursor: text;
+}
+#inputAdicionar, #inputEditar{
+  height: 35px;
+  width: 125px;
+  text-align: center;
+  font-size: 15px;
+}
+.inputSelect h2{
+  margin-top: 10px;
+  margin-bottom: -15px;
+  
+}
+#inputNome,#inputEscola{
+  width: 95.8%;
+}
+#inputEndereco{
+  width: 70.5%;
+}
+#escolaSelect{
+  width: 15.5%;
+  height: 27.5px;
+  display: none;
+  font-size: 14px;
+}
+button{
+  margin-bottom: -10px;
+  width: 20%;
+}
+a{
+  color: black;
+  
+}
+h2{
+  margin-bottom: -15px;
+}
+#inputData{
+  width: 16.5%;
+  padding-top: 0.1px;
+  cursor: pointer;
+}
+button{
+  margin-bottom: -10px;
+  width: 20%;
+}
+a{
+  color: black;
+  
+}
+h2{
+  margin-bottom: -17px;
+}
+#inputData{
+  width: 16.5%;
+  padding-top: 0.1px;
+}
+
+#removerAluno{
+  background-color: red;
+  width: 115px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+}
+

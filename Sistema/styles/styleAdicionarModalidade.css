@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    background-color: #a5a5a5;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+a:hover{
+    color: rgb(6, 122, 122);
+}
+nav {
+    width: 16.5%;
+    background-image: url(../images/image__5_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-y: 1%;  
+    background-position-x: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+}
+
+.navLinks {
+    padding-top: 125px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.content {
+    width: 85%;
+    background-color: #292f36;
+    color: white;
+    margin-left: 16.5%;
+}
+
+a {
+    color: black;
+    margin-left: 7px;
+}
+h1{
+    margin-left: -230px;
+}
+.modalidades{
+    background-color: aqua;
+    width: 100%;
+    margin-top: 11%;
+    
+}
+.addModalidade {
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 66, 66);
+}
+
+#inputModalidade{
+    margin-left: -230px;
+}
+#inputModalidade, #inputHorario, #inputProfessor {
+    height: 30px;
+    width: 50%;
+    font-size: 22px;
+    margin-right: 5px; 
+    margin-bottom: 10px; 
+    border: 0.4px solid black;
+    padding-left: 5px;
+    font-size: 14px;
+    padding-left: 6px;
+}
+
+*:focus {
+    outline: none;
+}
+table{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+}
+table th{
+    border: 1px solid black;
+    margin: 0;
+}
+table tr td{
+    border: 1px solid black;
+    height: 24px;
+    font-size: 19px;
+}
+#submitButton{
+    width:25%;
+    height: 26px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#submitButton:hover{
+    background-color: rgb(162, 162, 180);
+    text-decoration: underline;
+}
+#RemoverModalidade{
+    width: 15%;
+}
+.buttonRemoverModalidade:hover{
+    color: rgb(162, 162, 180);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.buttonRemoverModalidade{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: white;
+}
